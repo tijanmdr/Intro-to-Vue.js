@@ -31,9 +31,7 @@ var app = new Vue({
 			];
 
 			this.events = events;
-		}, alertNow: function () {
-			alert("");
-		}, 
+		}
 		addEvent: function () {
 			if (this.event.name) {
 				this.events.push(this.event);
