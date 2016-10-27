@@ -31,7 +31,7 @@ var app = new Vue({
 			];
 
 			this.events = events;
-		}
+		},
 		addEvent: function () {
 			if (this.event.name) {
 				this.events.push(this.event);
@@ -40,7 +40,7 @@ var app = new Vue({
 		}, 
 		deleteEvent: function (key) {
 			if (confirm("Are you sure you want to delete")) {
-				this.events.splice(key,1);
+				this.events.splice(key, 1);
 			}
 		}
 	}
